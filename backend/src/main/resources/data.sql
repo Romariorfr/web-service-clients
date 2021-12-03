@@ -1,3 +1,10 @@
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ronaldo Souza Lima', 09743567655,7580.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',2);
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Lorena Torres Maia', 07654533233,3500.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',0);
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jorge Candido Costa',48754434232,12450.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',4);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ronaldo Souza Lima', 35202229062,7580.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Lorena Torres Maia', 06098015031,3500.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jorge Candido Costa',08186928049,12450.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ronaldo Souza Lima', 88940542096,7580.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Laura Rosa Pereira', 52081182033,3500.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Michael Henrrique Rezende',14753058000,2000.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Maria Tereza Souza', 15229925027,7580.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Nelseli Antonio Pinto', 59261023088,2000.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Gabriel Melo Machado',16185809060,12450.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Rodrigo Ferreira de Melo', 83073999043,6000.0,TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z',1);
