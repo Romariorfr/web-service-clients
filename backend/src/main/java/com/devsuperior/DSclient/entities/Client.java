@@ -50,6 +50,14 @@ public class Client implements Serializable {
 		this.birthDate = dto.getBirthDate();
 		this.children = dto.getChildren();
 	}
+	
+	public void copyEntity(ClientDTO dto,Client entity) {
+		entity.setName(dto.getName());
+		entity.setCpf(dto.getCpf());
+		entity.setIncome(dto.getIncome());
+		entity.setBirthDate(dto.getBirthDate());
+		entity.setChildren(dto.getChildren());
+	}
 
 	public Long getId() {
 		return id;
