@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.dsclient.dto.ClientDTO;
 import com.devsuperior.dsclient.entities.Client;
+import com.devsuperior.dsclient.exception.EntityNotFoundException;
 import com.devsuperior.dsclient.repositories.ClientRepository;
 
 @Service
@@ -27,7 +28,7 @@ public class ClientService {
 
 	public ClientDTO findById(Long id) {
 		Optional<Client> obj = repository.findById(id);
-		Client entity = obj.get();
+		Client entity = obj.orElseThrow(() -> new EntityNotFoundException("Entity Not Found"));
 		return new ClientDTO(entity);
 	}
 
