@@ -32,4 +32,10 @@ public class ClientService {
 		return new ClientDTO(entity);
 	}
 
+	public ClientDTO insert(ClientDTO dto) {
+		Client client = new Client(dto);
+		client = repository.save(client);
+		return new ClientDTO(client);
+	}
+
 }

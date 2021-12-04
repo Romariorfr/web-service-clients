@@ -11,6 +11,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.devsuperior.dsclient.dto.ClientDTO;
+
 @Entity
 @Table(name = "tb_client")
 public class Client implements Serializable {
@@ -22,7 +24,7 @@ public class Client implements Serializable {
 	private String name;
 	private String cpf;
 	private Double income;
-	
+
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant birthDate;
 	private Integer children;
@@ -39,6 +41,14 @@ public class Client implements Serializable {
 		this.income = income;
 		this.birthDate = birthDate;
 		this.children = children;
+	}
+
+	public Client(ClientDTO dto) {
+		this.name = dto.getName();
+		this.cpf = dto.getCpf();
+		this.income = dto.getIncome();
+		this.birthDate = dto.getBirthDate();
+		this.children = dto.getChildren();
 	}
 
 	public Long getId() {
