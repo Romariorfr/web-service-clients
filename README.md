@@ -44,7 +44,7 @@ cd backend
 
 
 ## 4. Testes manuais no postman
-### 4.1 Requisições da classe Category
+### 4.1 Requisições da classe Client
 
 ```bash
 #Busca paginada de clientes
