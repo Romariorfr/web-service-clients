@@ -2,7 +2,7 @@
 
 ## 1. Sobre o projeto:
 
-Web service clients é um desafio proposto ao final do primeiro capitulo do bootcamp Spring Reac evento organizado pela [DevSuperior](https://devsuperior.com.br "Site da DevSuperior"). O projeto consiste na criação de um crud completo (Create, Read, Update, Delete) de clientes. Foram colocados em pratica varios conceitos aprendidos ao longo do curso como organizaçõa do projeto em camadas, aplicar o padrao DTO(Data Transfer Object), tratamento de excessoes,paginação de dados e tambem aplicado boas praticas de programação que é fundamental para todo desenvolvimento de qualidade.
+Web service clients é um desafio proposto ao final do primeiro capítulo do bootcamp Spring Reac evento organizado pela DevSuperior. O projeto consiste na criação de um crud completo (Create, Read, Update, Delete) de clientes. Foram colocados em prática vários conceitos aprendidos ao longo do curso como organização do projeto em camadas, aplicar o padrão DTO(Data Transfer Object), tratamento de exceções,paginação de dados e também aplicado boas práticas de programação que é fundamental para todo desenvolvimento de qualidade.
 
 ## 1.1 Modelo conceitual do projeto:
 
