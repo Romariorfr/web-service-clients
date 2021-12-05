@@ -14,9 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.devsuperior.dsclient.dto.ClientDTO;
 import com.devsuperior.dsclient.entities.Client;
-import com.devsuperior.dsclient.exception.DataBaseException;
-import com.devsuperior.dsclient.exception.ResourceNotFoundException;
 import com.devsuperior.dsclient.repositories.ClientRepository;
+import com.devsuperior.dsclient.services.exceptions.DataBaseException;
+import com.devsuperior.dsclient.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class ClientService {
