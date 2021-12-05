@@ -1,4 +1,5 @@
 # web-service-clients
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Romariorfr/web-service-clients/blob/master/LICENSE) 
 
 ## 1. Sobre o projeto:
 
